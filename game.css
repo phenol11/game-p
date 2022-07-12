@@ -1,0 +1,111 @@
+@media(max-width:400px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+        background:linear-gradient(45deg, red, blue,yellow);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .first{
+        padding: 5px;
+    }
+    h1,p{
+        
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #p{
+        margin-bottom: 10px;
+        font-style: italic;
+        /* text-align: center; */
+    }
+    #btnplay{
+        margin-left: 33%;
+        background-color: green !important;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 2px;
+    }
+    #all{
+        margin: 10px;
+        display: none;
+        width: 70%;
+    }
+    #all button{
+        margin-left: 32%;
+        padding: 5px 10px;
+        color: green;
+        border: none;
+    }
+    /* #all button a{
+        text-decoration: none;
+        color: green;
+        border: none;
+    } */
+    #all input{
+        border-top: none;
+        border-bottom: rgba(0,0,0,0.5);
+        border-left: none;
+        border-right: none;
+        outline: none;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    /* .apper{
+        display: block;
+        padding-left: 20%;
+    } */
+    #newpage{
+        display: none;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+    #welpar{
+        margin-top: 20px;
+        text-align:left ;
+        font-size: 28px;
+    }
+    table{
+        padding: 5px;
+        margin:10px 0;
+    }
+    h5{
+        margin-bottom: 10px;
+        color: rgba(0,0,0,0.5);
+    }
+    #start{
+         margin-left: 33%;
+         padding: 5px 20px;
+         background-color: green;
+         color: white;
+         border: none;
+         border-radius: 3px;
+    }
+    #box{
+        height: 150px;
+        width: 200px;
+        background-color:black;
+        margin-top: -150px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 10px 20px;
+    }
+}
+
+ 
